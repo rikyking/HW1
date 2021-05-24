@@ -28,13 +28,13 @@
 <body>
     <header>
         <nav>       
-            <a href="mhw1.php" id="home">
+            <a href="index.php" id="home">
                 <div id="titolo">
                     Auto&Moto
                 </div>
             </a>
             <div id="menu">
-                <a href="mhw1.php">Concessionari</a>
+                <a href="index.php">Concessionari</a>
                 <a href="mhw3.0.php">Galleria</a>
                 <a href="mhw3.1.php">VIN decode</a>
                 <a href="login/login.php">
