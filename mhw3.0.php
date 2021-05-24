@@ -17,7 +17,7 @@
 <body> 
     <header>
         <nav>       
-            <a href="mhw1.php" id="home">
+            <a href="index.php" id="home">
                 <div id="titolo">
                     Auto&Moto
                 </div>
