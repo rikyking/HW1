@@ -48,24 +48,6 @@ function decodeVIN(event){
 const serchVIN=document.querySelector("form");
 serchVIN.addEventListener("submit",decodeVIN);
 
-/*
-function decodeVIN(event){
-    event.preventDefault();
-    const inputVIN=document.querySelector("#VIN").value;
-    if(!inputVIN){
-        alert("Devi inserire un codice VIN");
-    }
-    const VIN=encodeURIComponent(inputVIN);
-    fetch(CIS_Automotive_endpoint+VIN, {
-	method: "GET",
-	headers: {
-		"x-rapidapi-key": key_VIN,
-		"x-rapidapi-host": "cis-automotive.p.rapidapi.com"
-	}
-    }).then(onResponse).then(onJSONVIN)
-
-}*/
-
 //test 4F2YU09161KM33122
 
 function reload(){
