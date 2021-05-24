@@ -36,7 +36,7 @@
     <title>Login</title>
 </head>
 <body>
-    <a href="../mhw1.php" id="home">
+    <a href="../index.php" id="home">
         <div id="titolo">
             Auto&Moto
         </div>
@@ -44,11 +44,6 @@
     <section class="sec-box">
         <div class="login-box">
             <h1>Login</h1>
-            <?php
-                // if(isset($errore) && $errore==true){
-                //     echo "Credenziali non valide";
-                // }
-            ?>
             <form action="login.php" name="form_login" method="POST">
                 <div class="txt_field" id="idUsername">
                     <input type="text" placeholder="Username" id="username" name="username" required>
