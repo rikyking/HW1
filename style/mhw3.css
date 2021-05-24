@@ -1,0 +1,237 @@
+#menu a{
+    cursor: pointer;
+    text-decoration: none;
+    color:white;
+    margin: 5px;
+}
+#menu a:hover {
+    text-decoration:underline;
+    color:grey;
+    font-size:30px;
+}
+#titolo {
+    color:white;
+    font-size: 55px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+#home{
+    text-decoration: none;
+}
+header{
+    background-image: url(../images/concessionaria.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+header nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size:20px;
+    padding:20px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+header h1{
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    background-color: rgba(245, 245, 245,0.70);
+    font-size: 50px;
+    z-index: 1;
+    font-family: 'Libre Baskerville', serif;
+    color: #252850;
+    padding: 5px;
+}
+header h3{
+    border: 0.5px solid whitesmoke;
+    border-radius: 5px;
+    background-color: rgba(245, 245, 245,0.70);
+    color: black;
+    z-index: 1;
+    margin-top: unset;
+}
+
+article{
+    margin: auto;
+    width: 90%;
+    margin-top: 30px;
+}
+#article1{
+    text-align: center;
+}
+#contenuti{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+article h1{
+    font-family: 'Libre Baskerville', serif;
+    color: #252850;
+}
+#contenuti div{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+#reload{
+    height: 20px;
+    width: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: -5px;
+}
+footer{
+    background-color:rgba(128, 128, 128, 0.45);
+    color:#252850;
+    text-align: center;
+    padding:70px;
+    margin-top: 150px;
+}
+footer p{
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+#contenuti img {
+    margin: 5px;
+    padding: 5px;
+    
+}
+#modal-view {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+  
+    background-color: rgba(0, 0, 0,0.9);
+    z-index: 2;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#modal-view img {
+    max-height: 100%;
+    max-width: 100%;
+}
+  
+#modal-view.hidden {
+    display: none;
+}
+  
+.no-scroll {
+    overflow: hidden;
+}
+.pulsanti{
+    width: 300px;
+    margin-right: 5px;
+    border-radius: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(120deg,#2528503f,#252850b2);
+    cursor: pointer;
+}
+#button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.tabella{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+table{
+    z-index: 2;
+    width: 60%; 
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 12px 12px 0 0;
+    margin-top: 20px;
+    overflow: hidden;
+}
+td , th{
+    padding: 15px 20px;
+    text-align: center;
+}
+th{
+    color: #fafafa;
+    font-family: 'Open Sans',Sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+   
+}
+#rigo1{
+    background: #252850;
+}
+tr{
+    width: 100%;
+    background: #252850a6;
+    font-family: 'Montserrat', sans-serif;
+}
+.hidden{
+ display: none;   
+}
+
+.loginForm{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.loginForm input[type="text"],select {
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background:none;
+    outline: none;
+}
+.error {
+    border-color: red;
+    color: red;
+}
+form input,select{
+    margin-left: 20px;
+}
+
+.loginForm input[type="submit"] {
+    border-radius:10px;
+    cursor: pointer;
+
+}
+.nonDispo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nonDispo a, a:visited { 
+    text-decoration: none;
+    color:inherit
+}
